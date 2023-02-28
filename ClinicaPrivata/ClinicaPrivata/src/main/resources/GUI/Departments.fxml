@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.DepartmentsController">
+   <children>
+      <ListView fx:id="listViewDepartments" layoutX="14.0" layoutY="14.0" onMouseClicked="#listViewDepartmentsMouseClick" prefHeight="200.0" prefWidth="570.0" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Spinner?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.ExaminationController">
+   <children>
+      <DatePicker fx:id="datePicker" layoutX="212.0" layoutY="44.0" />
+      <ComboBox fx:id="comboBoxDoctor" layoutX="212.0" layoutY="93.0" prefHeight="26.0" prefWidth="175.0" />
+      <Button fx:id="buttonMakeAppointment" layoutX="212.0" layoutY="345.0" mnemonicParsing="false" onAction="#onClickAppointment" prefHeight="26.0" prefWidth="175.0" text="Make appointment" />
+      <TextField fx:id="textFieldCnp" layoutX="212.0" layoutY="134.0" prefHeight="26.0" prefWidth="175.0" promptText="CNP" />
+      <TextField fx:id="textFieldName" layoutX="212.0" layoutY="187.0" prefHeight="26.0" prefWidth="175.0" promptText="Name" />
+      <Spinner fx:id="spinnerTime" layoutX="397.0" layoutY="43.0" prefHeight="26.0" prefWidth="104.0" />
+   </children>
+</AnchorPane>
