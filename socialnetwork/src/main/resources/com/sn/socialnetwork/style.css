@@ -1,0 +1,16 @@
+.main_pane{
+    -fx-background-color: #ba6113;
+
+}
+
+.right_pane{
+    -fx-background-color: #d9af79;
+}
+
+.submit_button{
+    -fx-background-color: #ded1c1;
+}
+
+.menu_tabs{
+    -fx-text-fill: #FFFFFF;
+}
